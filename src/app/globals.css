@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wdth,wght@62.5..100,100..900&display=swap');
+
+@theme {
+  --font-notosans : "Noto Sans Thai" , 'sans-serif' ;
+  --font-kanit : Kanit , 'sans-serif';
+}
+
+* {
+  font-family: var(--font-kanit);
+}
